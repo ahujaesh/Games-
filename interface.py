@@ -6,6 +6,8 @@ def fruit():
     os.system('python SnakeGame.py')
 def ttt():
     os.system('python Tic_Tac_Toe.py')
+def ch():
+    os.system('python chess')
 root = tk.Tk()
 frame = tk.Frame(root)
 frame.pack()
@@ -21,6 +23,9 @@ slogan = tk.Button(frame,
 slogan2 = tk.Button(frame,
                    text="Open Tic Tac Toe!",
                    command=ttt)
+slogan3 = tk.Button(frame,
+                   text="Open Chess!",
+                   command=ch)
 slogan.pack(side=tk.LEFT)
 
 root.mainloop()

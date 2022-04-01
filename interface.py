@@ -5,7 +5,7 @@ import sys
 def fruit():
     os.system('python SnakeGame.py')
 def ttt():
-    print("h")
+    os.system('python Tic_Tac_Toe.py')
 root = tk.Tk()
 frame = tk.Frame(root)
 frame.pack()
@@ -19,7 +19,7 @@ slogan = tk.Button(frame,
                    text="Open Fruit catcher!",
                    command=fruit)
 slogan2 = tk.Button(frame,
-                   text="Open Fruit catcher!",
+                   text="Open Tic Tac Toe!",
                    command=ttt)
 slogan.pack(side=tk.LEFT)
 

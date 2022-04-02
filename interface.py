@@ -7,7 +7,9 @@ def fruit():
 def ttt():
     os.system('python Tic_Tac_Toe.py')
 def ch():
-    os.system('python chess')
+    os.system('python chess.py')
+def boom
+    os.system('python Minsweeper.py')
 root = tk.Tk()
 frame = tk.Frame(root)
 frame.pack()
@@ -26,6 +28,9 @@ slogan2 = tk.Button(frame,
 slogan3 = tk.Button(frame,
                    text="Open Chess!",
                    command=ch)
+slogan4 = tk.Button(frame,
+                   text="Open Chess!",
+                   command=boom)
 slogan.pack(side=tk.LEFT)
 
 root.mainloop()

@@ -5,11 +5,11 @@ import sys
 def fruit():
     os.system('python SnakeGame.py')
 def ttt():
-    os.system('python Tic_Tac_Toe.py')
+    os.system('python Tic_Tac_toe.py')
 def ch():
     os.system('python chess.py')
-def boom
-    os.system('python Minsweeper.py')
+def boom():
+    os.system('python Minesweeper.py')
 root = tk.Tk()
 frame = tk.Frame(root)
 frame.pack()
@@ -22,15 +22,18 @@ button.pack(side=tk.LEFT)
 slogan = tk.Button(frame,
                    text="Open Fruit catcher!",
                    command=fruit)
-slogan2 = tk.Button(frame,
+button2 = tk.Button(frame,
                    text="Open Tic Tac Toe!",
                    command=ttt)
-slogan3 = tk.Button(frame,
+button3 = tk.Button(frame,
                    text="Open Chess!",
                    command=ch)
-slogan4 = tk.Button(frame,
-                   text="Open Chess!",
+button4 = tk.Button(frame,
+                   text="Open Minesweeper!",
                    command=boom)
 slogan.pack(side=tk.LEFT)
-
+button2.pack(side=tk.LEFT)
+button3.pack(side=tk.LEFT)
+button4.pack(side=tk.LEFT)
 root.mainloop()
+
